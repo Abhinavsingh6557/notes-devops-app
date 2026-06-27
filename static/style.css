@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.container {
+    width: 500px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+li {
+    margin: 12px 0;
+    background: #eef2f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    float: right;
+    color: red;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    color: gray;
+}
