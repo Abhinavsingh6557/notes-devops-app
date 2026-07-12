@@ -1,0 +1,10 @@
+@"
+.git
+__pycache__
+*.pyc
+*.pyo
+*.db
+.env
+venv
+.venv
+"@ | Set-Content -Encoding utf8 .dockerignore
